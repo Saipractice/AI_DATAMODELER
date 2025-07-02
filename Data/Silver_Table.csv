@@ -1,0 +1,349 @@
+TableName,TableDescription,ColumnName,ColumnDescription,Domain,SubDomain,PrimaryKey,NotNull,SecurityClassification
+orders,This table contains data related to order management in the sales domain.,order_id,Order id for the orders table.,Sales,Order Management,TRUE,TRUE,Confidential
+orders,This table contains data related to order management in the sales domain.,customer_id,Customer id for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,order_date,Order date for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,status,Status for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,total_amount,Total amount for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,order_id_1,Order id 1 for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,customer_id_1,Customer id 1 for the orders table.,Sales,Order Management,FALSE,TRUE,Confidential
+orders,This table contains data related to order management in the sales domain.,order_date_1,Order date 1 for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,status_1,Status 1 for the orders table.,Sales,Order Management,FALSE,TRUE,Confidential
+orders,This table contains data related to order management in the sales domain.,total_amount_1,Total amount 1 for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,order_id_2,Order id 2 for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,customer_id_2,Customer id 2 for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,order_date_2,Order date 2 for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,status_2,Status 2 for the orders table.,Sales,Order Management,FALSE,TRUE,Confidential
+orders,This table contains data related to order management in the sales domain.,total_amount_2,Total amount 2 for the orders table.,Sales,Order Management,FALSE,TRUE,Confidential
+orders,This table contains data related to order management in the sales domain.,order_id_3,Order id 3 for the orders table.,Sales,Order Management,FALSE,TRUE,Confidential
+orders,This table contains data related to order management in the sales domain.,customer_id_3,Customer id 3 for the orders table.,Sales,Order Management,FALSE,TRUE,Confidential
+orders,This table contains data related to order management in the sales domain.,order_date_3,Order date 3 for the orders table.,Sales,Order Management,FALSE,TRUE,Confidential
+orders,This table contains data related to order management in the sales domain.,status_3,Status 3 for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+orders,This table contains data related to order management in the sales domain.,total_amount_3,Total amount 3 for the orders table.,Sales,Order Management,FALSE,FALSE,Confidential
+sales_transactions,This table contains data related to order management in the sales domain.,transaction_id,Transaction id for the sales_transactions table.,Sales,Order Management,TRUE,TRUE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,order_id,Order id for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,product_id,Product id for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,quantity,Quantity for the sales_transactions table.,Sales,Order Management,FALSE,TRUE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,price,Price for the sales_transactions table.,Sales,Order Management,FALSE,TRUE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,transaction_id_1,Transaction id 1 for the sales_transactions table.,Sales,Order Management,FALSE,TRUE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,order_id_1,Order id 1 for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,product_id_1,Product id 1 for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,quantity_1,Quantity 1 for the sales_transactions table.,Sales,Order Management,FALSE,TRUE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,price_1,Price 1 for the sales_transactions table.,Sales,Order Management,FALSE,TRUE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,transaction_id_2,Transaction id 2 for the sales_transactions table.,Sales,Order Management,FALSE,TRUE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,order_id_2,Order id 2 for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,product_id_2,Product id 2 for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,quantity_2,Quantity 2 for the sales_transactions table.,Sales,Order Management,FALSE,TRUE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,price_2,Price 2 for the sales_transactions table.,Sales,Order Management,FALSE,TRUE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,transaction_id_3,Transaction id 3 for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,order_id_3,Order id 3 for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,product_id_3,Product id 3 for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,quantity_3,Quantity 3 for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+sales_transactions,This table contains data related to order management in the sales domain.,price_3,Price 3 for the sales_transactions table.,Sales,Order Management,FALSE,FALSE,Restricted
+forecasts,This table contains data related to order management in the sales domain.,forecast_id,Forecast id for the forecasts table.,Sales,Order Management,TRUE,TRUE,Public
+forecasts,This table contains data related to order management in the sales domain.,product_id,Product id for the forecasts table.,Sales,Order Management,FALSE,TRUE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_date,Forecast date for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_qty,Forecast qty for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,confidence_level,Confidence level for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_id_1,Forecast id 1 for the forecasts table.,Sales,Order Management,FALSE,TRUE,Public
+forecasts,This table contains data related to order management in the sales domain.,product_id_1,Product id 1 for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_date_1,Forecast date 1 for the forecasts table.,Sales,Order Management,FALSE,TRUE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_qty_1,Forecast qty 1 for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,confidence_level_1,Confidence level 1 for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_id_2,Forecast id 2 for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,product_id_2,Product id 2 for the forecasts table.,Sales,Order Management,FALSE,TRUE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_date_2,Forecast date 2 for the forecasts table.,Sales,Order Management,FALSE,TRUE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_qty_2,Forecast qty 2 for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,confidence_level_2,Confidence level 2 for the forecasts table.,Sales,Order Management,FALSE,TRUE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_id_3,Forecast id 3 for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,product_id_3,Product id 3 for the forecasts table.,Sales,Order Management,FALSE,TRUE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_date_3,Forecast date 3 for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,forecast_qty_3,Forecast qty 3 for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+forecasts,This table contains data related to order management in the sales domain.,confidence_level_3,Confidence level 3 for the forecasts table.,Sales,Order Management,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,inventory_id,Inventory id for the inventory table.,Inventory,Stock Levels,TRUE,TRUE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,product_id,Product id for the inventory table.,Inventory,Stock Levels,FALSE,TRUE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,stock_qty,Stock qty for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,warehouse_id,Warehouse id for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,reorder_point,Reorder point for the inventory table.,Inventory,Stock Levels,FALSE,TRUE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,inventory_id_1,Inventory id 1 for the inventory table.,Inventory,Stock Levels,FALSE,TRUE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,product_id_1,Product id 1 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,stock_qty_1,Stock qty 1 for the inventory table.,Inventory,Stock Levels,FALSE,TRUE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,warehouse_id_1,Warehouse id 1 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,reorder_point_1,Reorder point 1 for the inventory table.,Inventory,Stock Levels,FALSE,TRUE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,inventory_id_2,Inventory id 2 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,product_id_2,Product id 2 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,stock_qty_2,Stock qty 2 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,warehouse_id_2,Warehouse id 2 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,reorder_point_2,Reorder point 2 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,inventory_id_3,Inventory id 3 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,product_id_3,Product id 3 for the inventory table.,Inventory,Stock Levels,FALSE,TRUE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,stock_qty_3,Stock qty 3 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,warehouse_id_3,Warehouse id 3 for the inventory table.,Inventory,Stock Levels,FALSE,TRUE,Public
+inventory,This table contains data related to stock levels in the inventory domain.,reorder_point_3,Reorder point 3 for the inventory table.,Inventory,Stock Levels,FALSE,FALSE,Public
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,warehouse_id,Warehouse id for the warehouse_stock table.,Inventory,Stock Levels,TRUE,TRUE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,product_id,Product id for the warehouse_stock table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,stock_level,Stock level for the warehouse_stock table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,last_updated,Last updated for the warehouse_stock table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,warehouse_id_1,Warehouse id 1 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,product_id_1,Product id 1 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,stock_level_1,Stock level 1 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,last_updated_1,Last updated 1 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,warehouse_id_2,Warehouse id 2 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,product_id_2,Product id 2 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,stock_level_2,Stock level 2 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,last_updated_2,Last updated 2 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,warehouse_id_3,Warehouse id 3 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,product_id_3,Product id 3 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,stock_level_3,Stock level 3 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+warehouse_stock,This table contains data related to stock levels in the inventory domain.,last_updated_3,Last updated 3 for the warehouse_stock table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,rule_id,Rule id for the replenishment_rules table.,Inventory,Stock Levels,TRUE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,product_id,Product id for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,min_stock,Min stock for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,max_stock,Max stock for the replenishment_rules table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,supplier_id,Supplier id for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,rule_id_1,Rule id 1 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,product_id_1,Product id 1 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,min_stock_1,Min stock 1 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,max_stock_1,Max stock 1 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,supplier_id_1,Supplier id 1 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,rule_id_2,Rule id 2 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,product_id_2,Product id 2 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,min_stock_2,Min stock 2 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,max_stock_2,Max stock 2 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,supplier_id_2,Supplier id 2 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,rule_id_3,Rule id 3 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,product_id_3,Product id 3 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,min_stock_3,Min stock 3 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,TRUE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,max_stock_3,Max stock 3 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+replenishment_rules,This table contains data related to stock levels in the inventory domain.,supplier_id_3,Supplier id 3 for the replenishment_rules table.,Inventory,Stock Levels,FALSE,FALSE,Restricted
+customers,This table contains data related to loyalty in the customer domain.,customer_id,Customer id for the customers table.,Customer,Loyalty,TRUE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,name,Name for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,email,Email for the customers table.,Customer,Loyalty,FALSE,FALSE,Internal
+customers,This table contains data related to loyalty in the customer domain.,phone,Phone for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,loyalty_points,Loyalty points for the customers table.,Customer,Loyalty,FALSE,FALSE,Internal
+customers,This table contains data related to loyalty in the customer domain.,customer_id_1,Customer id 1 for the customers table.,Customer,Loyalty,FALSE,FALSE,Internal
+customers,This table contains data related to loyalty in the customer domain.,name_1,Name 1 for the customers table.,Customer,Loyalty,FALSE,FALSE,Internal
+customers,This table contains data related to loyalty in the customer domain.,email_1,Email 1 for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,phone_1,Phone 1 for the customers table.,Customer,Loyalty,FALSE,FALSE,Internal
+customers,This table contains data related to loyalty in the customer domain.,loyalty_points_1,Loyalty points 1 for the customers table.,Customer,Loyalty,FALSE,FALSE,Internal
+customers,This table contains data related to loyalty in the customer domain.,customer_id_2,Customer id 2 for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,name_2,Name 2 for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,email_2,Email 2 for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,phone_2,Phone 2 for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,loyalty_points_2,Loyalty points 2 for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,customer_id_3,Customer id 3 for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,name_3,Name 3 for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,email_3,Email 3 for the customers table.,Customer,Loyalty,FALSE,FALSE,Internal
+customers,This table contains data related to loyalty in the customer domain.,phone_3,Phone 3 for the customers table.,Customer,Loyalty,FALSE,TRUE,Internal
+customers,This table contains data related to loyalty in the customer domain.,loyalty_points_3,Loyalty points 3 for the customers table.,Customer,Loyalty,FALSE,FALSE,Internal
+feedback,This table contains data related to loyalty in the customer domain.,feedback_id,Feedback id for the feedback table.,Customer,Loyalty,TRUE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,customer_id,Customer id for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+feedback,This table contains data related to loyalty in the customer domain.,rating,Rating for the feedback table.,Customer,Loyalty,FALSE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,comments,Comments for the feedback table.,Customer,Loyalty,FALSE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,submitted_at,Submitted at for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+feedback,This table contains data related to loyalty in the customer domain.,feedback_id_1,Feedback id 1 for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+feedback,This table contains data related to loyalty in the customer domain.,customer_id_1,Customer id 1 for the feedback table.,Customer,Loyalty,FALSE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,rating_1,Rating 1 for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+feedback,This table contains data related to loyalty in the customer domain.,comments_1,Comments 1 for the feedback table.,Customer,Loyalty,FALSE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,submitted_at_1,Submitted at 1 for the feedback table.,Customer,Loyalty,FALSE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,feedback_id_2,Feedback id 2 for the feedback table.,Customer,Loyalty,FALSE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,customer_id_2,Customer id 2 for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+feedback,This table contains data related to loyalty in the customer domain.,rating_2,Rating 2 for the feedback table.,Customer,Loyalty,FALSE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,comments_2,Comments 2 for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+feedback,This table contains data related to loyalty in the customer domain.,submitted_at_2,Submitted at 2 for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+feedback,This table contains data related to loyalty in the customer domain.,feedback_id_3,Feedback id 3 for the feedback table.,Customer,Loyalty,FALSE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,customer_id_3,Customer id 3 for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+feedback,This table contains data related to loyalty in the customer domain.,rating_3,Rating 3 for the feedback table.,Customer,Loyalty,FALSE,TRUE,Public
+feedback,This table contains data related to loyalty in the customer domain.,comments_3,Comments 3 for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+feedback,This table contains data related to loyalty in the customer domain.,submitted_at_3,Submitted at 3 for the feedback table.,Customer,Loyalty,FALSE,FALSE,Public
+loyalty_program,This table contains data related to loyalty in the customer domain.,program_id,Program id for the loyalty_program table.,Customer,Loyalty,TRUE,TRUE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,customer_id,Customer id for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,start_date,Start date for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,tier,Tier for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,points,Points for the loyalty_program table.,Customer,Loyalty,FALSE,TRUE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,program_id_1,Program id 1 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,customer_id_1,Customer id 1 for the loyalty_program table.,Customer,Loyalty,FALSE,TRUE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,start_date_1,Start date 1 for the loyalty_program table.,Customer,Loyalty,FALSE,TRUE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,tier_1,Tier 1 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,points_1,Points 1 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,program_id_2,Program id 2 for the loyalty_program table.,Customer,Loyalty,FALSE,TRUE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,customer_id_2,Customer id 2 for the loyalty_program table.,Customer,Loyalty,FALSE,TRUE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,start_date_2,Start date 2 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,tier_2,Tier 2 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,points_2,Points 2 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,program_id_3,Program id 3 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,customer_id_3,Customer id 3 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,start_date_3,Start date 3 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,tier_3,Tier 3 for the loyalty_program table.,Customer,Loyalty,FALSE,TRUE,Restricted
+loyalty_program,This table contains data related to loyalty in the customer domain.,points_3,Points 3 for the loyalty_program table.,Customer,Loyalty,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,product_id,Product id for the products table.,Product,Product Catalog,TRUE,TRUE,Restricted
+products,This table contains data related to product catalog in the product domain.,name,Name for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,category,Category for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,price,Price for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,availability,Availability for the products table.,Product,Product Catalog,FALSE,TRUE,Restricted
+products,This table contains data related to product catalog in the product domain.,product_id_1,Product id 1 for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,name_1,Name 1 for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,category_1,Category 1 for the products table.,Product,Product Catalog,FALSE,TRUE,Restricted
+products,This table contains data related to product catalog in the product domain.,price_1,Price 1 for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,availability_1,Availability 1 for the products table.,Product,Product Catalog,FALSE,TRUE,Restricted
+products,This table contains data related to product catalog in the product domain.,product_id_2,Product id 2 for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,name_2,Name 2 for the products table.,Product,Product Catalog,FALSE,TRUE,Restricted
+products,This table contains data related to product catalog in the product domain.,category_2,Category 2 for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,price_2,Price 2 for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,availability_2,Availability 2 for the products table.,Product,Product Catalog,FALSE,TRUE,Restricted
+products,This table contains data related to product catalog in the product domain.,product_id_3,Product id 3 for the products table.,Product,Product Catalog,FALSE,TRUE,Restricted
+products,This table contains data related to product catalog in the product domain.,name_3,Name 3 for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,category_3,Category 3 for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,price_3,Price 3 for the products table.,Product,Product Catalog,FALSE,FALSE,Restricted
+products,This table contains data related to product catalog in the product domain.,availability_3,Availability 3 for the products table.,Product,Product Catalog,FALSE,TRUE,Restricted
+pricing,This table contains data related to product catalog in the product domain.,product_id,Product id for the pricing table.,Product,Product Catalog,TRUE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,base_price,Base price for the pricing table.,Product,Product Catalog,FALSE,FALSE,Public
+pricing,This table contains data related to product catalog in the product domain.,discount,Discount for the pricing table.,Product,Product Catalog,FALSE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,effective_date,Effective date for the pricing table.,Product,Product Catalog,FALSE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,product_id_1,Product id 1 for the pricing table.,Product,Product Catalog,FALSE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,base_price_1,Base price 1 for the pricing table.,Product,Product Catalog,FALSE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,discount_1,Discount 1 for the pricing table.,Product,Product Catalog,FALSE,FALSE,Public
+pricing,This table contains data related to product catalog in the product domain.,effective_date_1,Effective date 1 for the pricing table.,Product,Product Catalog,FALSE,FALSE,Public
+pricing,This table contains data related to product catalog in the product domain.,product_id_2,Product id 2 for the pricing table.,Product,Product Catalog,FALSE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,base_price_2,Base price 2 for the pricing table.,Product,Product Catalog,FALSE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,discount_2,Discount 2 for the pricing table.,Product,Product Catalog,FALSE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,effective_date_2,Effective date 2 for the pricing table.,Product,Product Catalog,FALSE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,product_id_3,Product id 3 for the pricing table.,Product,Product Catalog,FALSE,FALSE,Public
+pricing,This table contains data related to product catalog in the product domain.,base_price_3,Base price 3 for the pricing table.,Product,Product Catalog,FALSE,TRUE,Public
+pricing,This table contains data related to product catalog in the product domain.,discount_3,Discount 3 for the pricing table.,Product,Product Catalog,FALSE,FALSE,Public
+pricing,This table contains data related to product catalog in the product domain.,effective_date_3,Effective date 3 for the pricing table.,Product,Product Catalog,FALSE,FALSE,Public
+reviews,This table contains data related to product catalog in the product domain.,review_id,Review id for the reviews table.,Product,Product Catalog,TRUE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,product_id,Product id for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,customer_id,Customer id for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,rating,Rating for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,review_text,Review text for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,review_id_1,Review id 1 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,product_id_1,Product id 1 for the reviews table.,Product,Product Catalog,FALSE,FALSE,Public
+reviews,This table contains data related to product catalog in the product domain.,customer_id_1,Customer id 1 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,rating_1,Rating 1 for the reviews table.,Product,Product Catalog,FALSE,FALSE,Public
+reviews,This table contains data related to product catalog in the product domain.,review_text_1,Review text 1 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,review_id_2,Review id 2 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,product_id_2,Product id 2 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,customer_id_2,Customer id 2 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,rating_2,Rating 2 for the reviews table.,Product,Product Catalog,FALSE,FALSE,Public
+reviews,This table contains data related to product catalog in the product domain.,review_text_2,Review text 2 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,review_id_3,Review id 3 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,product_id_3,Product id 3 for the reviews table.,Product,Product Catalog,FALSE,FALSE,Public
+reviews,This table contains data related to product catalog in the product domain.,customer_id_3,Customer id 3 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,rating_3,Rating 3 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+reviews,This table contains data related to product catalog in the product domain.,review_text_3,Review text 3 for the reviews table.,Product,Product Catalog,FALSE,TRUE,Public
+receivables,This table contains data related to accounts receivable in the finance domain.,invoice_id,Invoice id for the receivables table.,Finance,Accounts Receivable,TRUE,TRUE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,customer_id,Customer id for the receivables table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,amount_due,Amount due for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,due_date,Due date for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,status,Status for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,invoice_id_1,Invoice id 1 for the receivables table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,customer_id_1,Customer id 1 for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,amount_due_1,Amount due 1 for the receivables table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,due_date_1,Due date 1 for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,status_1,Status 1 for the receivables table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,invoice_id_2,Invoice id 2 for the receivables table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,customer_id_2,Customer id 2 for the receivables table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,amount_due_2,Amount due 2 for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,due_date_2,Due date 2 for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,status_2,Status 2 for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,invoice_id_3,Invoice id 3 for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,customer_id_3,Customer id 3 for the receivables table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,amount_due_3,Amount due 3 for the receivables table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,due_date_3,Due date 3 for the receivables table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+receivables,This table contains data related to accounts receivable in the finance domain.,status_3,Status 3 for the receivables table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+payables,This table contains data related to accounts receivable in the finance domain.,invoice_id,Invoice id for the payables table.,Finance,Accounts Receivable,TRUE,TRUE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,vendor_id,Vendor id for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,amount,Amount for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,due_date,Due date for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,status,Status for the payables table.,Finance,Accounts Receivable,FALSE,TRUE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,invoice_id_1,Invoice id 1 for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,vendor_id_1,Vendor id 1 for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,amount_1,Amount 1 for the payables table.,Finance,Accounts Receivable,FALSE,TRUE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,due_date_1,Due date 1 for the payables table.,Finance,Accounts Receivable,FALSE,TRUE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,status_1,Status 1 for the payables table.,Finance,Accounts Receivable,FALSE,TRUE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,invoice_id_2,Invoice id 2 for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,vendor_id_2,Vendor id 2 for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,amount_2,Amount 2 for the payables table.,Finance,Accounts Receivable,FALSE,TRUE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,due_date_2,Due date 2 for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,status_2,Status 2 for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,invoice_id_3,Invoice id 3 for the payables table.,Finance,Accounts Receivable,FALSE,TRUE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,vendor_id_3,Vendor id 3 for the payables table.,Finance,Accounts Receivable,FALSE,TRUE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,amount_3,Amount 3 for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,due_date_3,Due date 3 for the payables table.,Finance,Accounts Receivable,FALSE,FALSE,Public
+payables,This table contains data related to accounts receivable in the finance domain.,status_3,Status 3 for the payables table.,Finance,Accounts Receivable,FALSE,TRUE,Public
+tax_records,This table contains data related to accounts receivable in the finance domain.,tax_id,Tax id for the tax_records table.,Finance,Accounts Receivable,TRUE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,region,Region for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,rate,Rate for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,effective_date,Effective date for the tax_records table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,category,Category for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,tax_id_1,Tax id 1 for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,region_1,Region 1 for the tax_records table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,rate_1,Rate 1 for the tax_records table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,effective_date_1,Effective date 1 for the tax_records table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,category_1,Category 1 for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,tax_id_2,Tax id 2 for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,region_2,Region 2 for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,rate_2,Rate 2 for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,effective_date_2,Effective date 2 for the tax_records table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,category_2,Category 2 for the tax_records table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,tax_id_3,Tax id 3 for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,region_3,Region 3 for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,rate_3,Rate 3 for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,effective_date_3,Effective date 3 for the tax_records table.,Finance,Accounts Receivable,FALSE,TRUE,Internal
+tax_records,This table contains data related to accounts receivable in the finance domain.,category_3,Category 3 for the tax_records table.,Finance,Accounts Receivable,FALSE,FALSE,Internal
+shipments,This table contains data related to shipping in the logistics domain.,shipment_id,Shipment id for the shipments table.,Logistics,Shipping,TRUE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,order_id,Order id for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,ship_date,Ship date for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,carrier,Carrier for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,tracking_number,Tracking number for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,shipment_id_1,Shipment id 1 for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,order_id_1,Order id 1 for the shipments table.,Logistics,Shipping,FALSE,FALSE,Public
+shipments,This table contains data related to shipping in the logistics domain.,ship_date_1,Ship date 1 for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,carrier_1,Carrier 1 for the shipments table.,Logistics,Shipping,FALSE,FALSE,Public
+shipments,This table contains data related to shipping in the logistics domain.,tracking_number_1,Tracking number 1 for the shipments table.,Logistics,Shipping,FALSE,FALSE,Public
+shipments,This table contains data related to shipping in the logistics domain.,shipment_id_2,Shipment id 2 for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,order_id_2,Order id 2 for the shipments table.,Logistics,Shipping,FALSE,FALSE,Public
+shipments,This table contains data related to shipping in the logistics domain.,ship_date_2,Ship date 2 for the shipments table.,Logistics,Shipping,FALSE,FALSE,Public
+shipments,This table contains data related to shipping in the logistics domain.,carrier_2,Carrier 2 for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,tracking_number_2,Tracking number 2 for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,shipment_id_3,Shipment id 3 for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,order_id_3,Order id 3 for the shipments table.,Logistics,Shipping,FALSE,TRUE,Public
+shipments,This table contains data related to shipping in the logistics domain.,ship_date_3,Ship date 3 for the shipments table.,Logistics,Shipping,FALSE,FALSE,Public
+shipments,This table contains data related to shipping in the logistics domain.,carrier_3,Carrier 3 for the shipments table.,Logistics,Shipping,FALSE,FALSE,Public
+shipments,This table contains data related to shipping in the logistics domain.,tracking_number_3,Tracking number 3 for the shipments table.,Logistics,Shipping,FALSE,FALSE,Public
+tracking,This table contains data related to shipping in the logistics domain.,tracking_number,Tracking number for the tracking table.,Logistics,Shipping,TRUE,TRUE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,status,Status for the tracking table.,Logistics,Shipping,FALSE,TRUE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,location,Location for the tracking table.,Logistics,Shipping,FALSE,TRUE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,timestamp,Timestamp for the tracking table.,Logistics,Shipping,FALSE,TRUE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,tracking_number_1,Tracking number 1 for the tracking table.,Logistics,Shipping,FALSE,TRUE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,status_1,Status 1 for the tracking table.,Logistics,Shipping,FALSE,TRUE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,location_1,Location 1 for the tracking table.,Logistics,Shipping,FALSE,TRUE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,timestamp_1,Timestamp 1 for the tracking table.,Logistics,Shipping,FALSE,FALSE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,tracking_number_2,Tracking number 2 for the tracking table.,Logistics,Shipping,FALSE,FALSE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,status_2,Status 2 for the tracking table.,Logistics,Shipping,FALSE,TRUE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,location_2,Location 2 for the tracking table.,Logistics,Shipping,FALSE,FALSE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,timestamp_2,Timestamp 2 for the tracking table.,Logistics,Shipping,FALSE,FALSE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,tracking_number_3,Tracking number 3 for the tracking table.,Logistics,Shipping,FALSE,FALSE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,status_3,Status 3 for the tracking table.,Logistics,Shipping,FALSE,FALSE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,location_3,Location 3 for the tracking table.,Logistics,Shipping,FALSE,TRUE,Internal
+tracking,This table contains data related to shipping in the logistics domain.,timestamp_3,Timestamp 3 for the tracking table.,Logistics,Shipping,FALSE,FALSE,Internal
+delivery_metrics,This table contains data related to shipping in the logistics domain.,metric_id,Metric id for the delivery_metrics table.,Logistics,Shipping,TRUE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,order_id,Order id for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,delivery_time,Delivery time for the delivery_metrics table.,Logistics,Shipping,FALSE,FALSE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,on_time,On time for the delivery_metrics table.,Logistics,Shipping,FALSE,FALSE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,delay_reason,Delay reason for the delivery_metrics table.,Logistics,Shipping,FALSE,FALSE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,metric_id_1,Metric id 1 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,order_id_1,Order id 1 for the delivery_metrics table.,Logistics,Shipping,FALSE,FALSE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,delivery_time_1,Delivery time 1 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,on_time_1,On time 1 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,delay_reason_1,Delay reason 1 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,metric_id_2,Metric id 2 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,order_id_2,Order id 2 for the delivery_metrics table.,Logistics,Shipping,FALSE,FALSE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,delivery_time_2,Delivery time 2 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,on_time_2,On time 2 for the delivery_metrics table.,Logistics,Shipping,FALSE,FALSE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,delay_reason_2,Delay reason 2 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,metric_id_3,Metric id 3 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,order_id_3,Order id 3 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,delivery_time_3,Delivery time 3 for the delivery_metrics table.,Logistics,Shipping,FALSE,FALSE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,on_time_3,On time 3 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential
+delivery_metrics,This table contains data related to shipping in the logistics domain.,delay_reason_3,Delay reason 3 for the delivery_metrics table.,Logistics,Shipping,FALSE,TRUE,Confidential

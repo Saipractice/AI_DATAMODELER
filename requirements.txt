@@ -1,0 +1,8 @@
+openai
+langgraph==0.5.0
+langgraph-sdk
+pydantic
+fastapi
+uvicorn
+pandas
+openpyxl
